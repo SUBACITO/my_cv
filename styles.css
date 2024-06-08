@@ -23,12 +23,16 @@ body {
     /* border-bottom: 2px solid #333; */
     padding-bottom: 10px;
     display: flex;
+    background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcC00MjYtamFja2Fuc3RleS1ycC1zZXB0MjAxOS0wMTIzLWV5ZS5qcGc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-content {
     text-align: left;
     margin: 50px auto;
     width: 50%;
+    padding: 20px;
 }
 
 
@@ -59,6 +63,7 @@ body {
     object-fit: cover;
     border-radius: 50%;
     min-height: 250px;
+    padding: 20px;
 }
 
 .sidebar {
