@@ -26,20 +26,20 @@ body {
 }
 
 .header-content {
-    margin: 0 auto;
+    margin: 50px auto;
     width: 50%;
 }
 
 
 .img-container{
-    width: 200px;
+    width: 250px;
     float: right;
     margin-right: 40px;
 }
 
 .header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -121,3 +121,27 @@ h3 {
     font-style: italic;
     margin-bottom: 5px;
 }
+
+
+@media only screen and (max-width: 650px) {
+    .my-cv{
+        flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+        border: none;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .pic-face{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .img-container{
+        margin: 0;
+        width: 300px;
+    }
+    
+  }
