@@ -26,6 +26,9 @@ body {
     background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcC00MjYtamFja2Fuc3RleS1ycC1zZXB0MjAxOS0wMTIzLWV5ZS5qcGc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .header-content {
