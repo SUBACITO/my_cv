@@ -129,6 +129,11 @@ h3 {
     font-style: italic;
     margin-bottom: 5px;
 }
+.job h4{
+    background: #f5e4e4;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 
 @media only screen and (max-width: 650px) {
